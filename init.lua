@@ -19,3 +19,9 @@ end
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
 require "plugins"
+
+-- Set the language to English
+vim.env.LANG = 'en_US.UTF-8'
+
+--Set ralative line number
+vim.wo.relativenumber = true
