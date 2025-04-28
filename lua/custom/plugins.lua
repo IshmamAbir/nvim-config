@@ -52,7 +52,14 @@ local plugins = {
   { 
     'Exafunction/codeium.vim',
     event = 'BufEnter'
-  }
+  },
+
+  -- screenkey plugin (show key press on screen)
+  {
+    "NStefan002/screenkey.nvim",
+    lazy = false,
+    version = "*", -- or branch = "main", to use the latest commit
+}
   
   -- indent lines
   -- { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
